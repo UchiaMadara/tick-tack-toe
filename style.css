@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+h1{
+    font-size: xx-large;
+    justify-self: center;
+
+}
+
+.board{
+    display: grid;
+    justify-self: center;
+    height: 21.3em;
+    width: 21.1em;
+    margin-bottom: 2em;
+    background-color: blue;
+    grid-template-columns: 7em 7em 7em;
+}
+
+.cell{
+    border:solid 1px black;
+    width: 7em;
+    height: 7em;
+}
